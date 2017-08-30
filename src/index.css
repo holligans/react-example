@@ -1,0 +1,51 @@
+html,body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.app-container{
+  height: 100%;
+  background: url('./images/pattern.svg');
+}
+
+/* HEADER COMPONENT STYLES */
+.header-container{
+  height: 60px;
+  width:100%;
+}
+
+/* HOME COMPONENT STYLES */
+.home-container{
+  height: calc(100vh - 60px);
+  width: 100%;
+  position: relative;
+}
+.inputCity{
+  height: auto;
+  width: 400px;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* WEATHER COMPONENT STYLES */
+.weather-container{
+  width:90%;
+  height: calc(100vh - 60px);
+  margin:20px auto;
+}
+.headline{
+  text-align: center;
+}
+.weather-day, .day-ul{
+  margin-top:40px;
+  list-style: none;
+}
+.weather-day li{
+  display: inline-block;
+}
+.day-ul li{
+  display: block;
+
+}
